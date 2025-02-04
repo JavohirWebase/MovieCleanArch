@@ -19,7 +19,6 @@ import dagger.hilt.android.AndroidEntryPoint
 import uz.webase.domain.util.NetworkMonitor
 import uz.webase.moviecleanarch.di.qualifiers.AppSettingsSharedPreference
 import uz.webase.moviecleanarch.ui.theme.AppTheme
-import uz.webase.moviecleanarch.ui.theme.MovieCleanArchTheme
 import uz.webase.moviecleanarch.ui.widget.NoInternetConnectionBanner
 import javax.inject.Inject
 

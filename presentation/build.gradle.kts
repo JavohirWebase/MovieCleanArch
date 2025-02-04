@@ -52,6 +52,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.compose.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -69,4 +70,14 @@ dependencies {
     // Navigation
     implementation(libs.navigation.compose)
     implementation(libs.hilt.navigation.compose)
+
+    // Serialization
+    implementation(libs.kotlinx.serialization.json)
+
+    // Paging
+    implementation(libs.paging.compose)
+
+    // AndroidX
+    implementation(libs.appcompat)
+    implementation(libs.lifecycle.viewmodel.ktx)
 }
